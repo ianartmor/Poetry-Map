@@ -1,0 +1,29 @@
+---
+title: "Poetry Map"
+format: html
+editor: visual
+---
+
+## Poetry Post Mapping Project
+
+
+Poetry posts are scattered throughout Porltand where neighbors offer us little gifts through poetry: a moment to puase, breathe, and receive inspiration, peache, delight, a new perspective, a sense of connection. We believe poetry posts strengthen our neighborhoods and build community.
+
+## The Map
+
+Below are the poetry posts we've identified so far. 
+
+```{r, include = FALSE}
+library(tidyverse)
+library(sf)
+library(leaflet)
+```
+
+You can add options to executable code like this
+
+```{r}
+#| echo: false
+2 * 2
+```
+
+The `echo: false` option disables the printing of code (only output is displayed).
